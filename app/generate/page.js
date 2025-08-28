@@ -53,6 +53,7 @@ const Generate = () => {
   };
 
   return (
+    <suspense>
     <div className="bg-gradient-to-br from-blue-950 via-blue-900 to-indigo-900 grid grid-cols-2 font-sans max-h-screen overflow-hidden text-cyan-100">
       {/* Left Column */}
       <motion.div
@@ -167,7 +168,9 @@ const Generate = () => {
         <ToastContainer />
       </motion.div>
     </div>
+          </suspense>
   );
 };
 
 export default Generate;
+
