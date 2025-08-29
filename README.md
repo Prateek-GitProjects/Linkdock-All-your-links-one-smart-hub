@@ -91,7 +91,7 @@ NEXT_PUBLIC_HOST=https://linkdock-all-your-links-one-smart-h.vercel.app
 
 4. Deploy 🎉
 
-5. Visit your live app: https://linkdock-all-your-links-one-smart-h.vercel.app
+5. Visit our live app: https://linkdock-all-your-links-one-smart-h.vercel.app
 
 🤝 Contributing
 
