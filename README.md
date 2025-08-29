@@ -1,15 +1,12 @@
 # 🔗 LinkDock – Turn your links into a professional, shareable landing page
 
-![GitHub stars](https://img.shields.io/github/stars/YourUsername/linkdock?style=social) ![GitHub forks](https://img.shields.io/github/forks/YourUsername/linkdock?style=social) ![GitHub issues](https://img.shields.io/github/issues/YourUsername/linkdock) ![Vercel](https://img.shields.io/badge/deployed-vercel-blue)
-
 A sleek, modern, and **highly customizable Link-in-Bio platform** built with **Next.js, Tailwind CSS, MongoDB Atlas, and Framer Motion** 🚀.  
 Create a professional landing page with all your important links — perfect for creators, businesses, and professionals.
 
 ---
 
 ## ✨ Features
-
-- 🔐 **No Signups Required** – Claim a handle instantly and create your Linkdock.  
+  
 - ⚡ **Fast & Secure** – Powered by **Next.js API Routes** and **MongoDB Atlas** backend.  
 - 📱 **Responsive Design** – Optimized for desktop, tablet, and mobile screens.  
 - 🎨 **Custom Profile** – Add profile picture, description, and multiple links.  
@@ -50,16 +47,16 @@ Create a professional landing page with all your important links — perfect for
 ## ⚙️ Installation & Setup
 
 ```bash
-# 1️⃣ Clone the repository
+1️⃣ Clone the repository
 git clone https://github.com/YourUsername/linkdock.git
 
-# 2️⃣ Move into the project directory
+2️⃣ Move into the project directory
 cd linkdock
 
-# 3️⃣ Install dependencies
+3️⃣ Install dependencies
 npm install
 
-# 4️⃣ Setup environment variables
+4️⃣ Setup environment variables
 touch .env.local
 
 ```
@@ -107,6 +104,13 @@ Contributions are always welcome!
 4. Push to the branch 🚀
 
 5. Open a Pull Request 🎉
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.  
+© 2025 [Prateek-GitProjects](https://github.com/Prateek-GitProjects)
 
 💖 Made With
 
