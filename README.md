@@ -93,8 +93,6 @@ NEXT_PUBLIC_HOST=https://linkdock-all-your-links-one-smart-h.vercel.app
 
 🤝 Contributing
 
-Contributions are always welcome!
-
 1. Fork the repo 🍴
 
 2. Create your feature branch 🌱
