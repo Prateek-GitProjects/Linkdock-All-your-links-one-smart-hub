@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔗 LinkDock – Turn your links into a professional, shareable landing page
 
-## Getting Started
+![GitHub stars](https://img.shields.io/github/stars/YourUsername/linkdock?style=social) ![GitHub forks](https://img.shields.io/github/forks/YourUsername/linkdock?style=social) ![GitHub issues](https://img.shields.io/github/issues/YourUsername/linkdock) ![Vercel](https://img.shields.io/badge/deployed-vercel-blue)
 
-First, run the development server:
+A sleek, modern, and **highly customizable Link-in-Bio platform** built with **Next.js, Tailwind CSS, MongoDB Atlas, and Framer Motion** 🚀.  
+Create a professional landing page with all your important links — perfect for creators, businesses, and professionals.
+
+---
+
+## ✨ Features
+
+- 🔐 **No Signups Required** – Claim a handle instantly and create your Linkdock.  
+- ⚡ **Fast & Secure** – Powered by **Next.js API Routes** and **MongoDB Atlas** backend.  
+- 📱 **Responsive Design** – Optimized for desktop, tablet, and mobile screens.  
+- 🎨 **Custom Profile** – Add profile picture, description, and multiple links.  
+- 🎉 **Smooth Animations** – Beautiful hover effects and transitions using **Framer Motion**.  
+- 🚀 **Shareable URL** – Instantly share your personalized landing page link.
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**  
+- [Next.js 14](https://nextjs.org/)  
+- [React.js](https://react.dev/)  
+- [Tailwind CSS](https://tailwindcss.com/)  
+- [Framer Motion](https://www.framer.com/motion/)  
+
+**Backend:**  
+- [Node.js](https://nodejs.org/)  
+- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)  
+- [Mongoose](https://mongoosejs.com/)  
+
+---
+
+## 📸 Screenshots / GIFs
+
+### 🏠 Home / Linkdock Page
+![Home Page](https://user-images.githubusercontent.com/48705673/233456789-123abc45.png)  
+
+### 🚀 Generate Page (Add Links)
+![Generate Page](https://user-images.githubusercontent.com/48705673/233456791-123456ab.png)  
+
+### 📱 Responsive Design
+![Responsive Design](https://user-images.githubusercontent.com/48705673/233456792-abcdef12.png)  
+
+
+---
+
+## ⚙️ Installation & Setup
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# 1️⃣ Clone the repository
+git clone https://github.com/YourUsername/linkdock.git
+
+# 2️⃣ Move into the project directory
+cd linkdock
+
+# 3️⃣ Install dependencies
+npm install
+
+# 4️⃣ Setup environment variables
+touch .env.local
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Inside .env.local:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+MONGODB_URI=mongodb://localhost:27017/Linkdock
+NEXT_PUBLIC_HOST=http://localhost:3000
 
-## Learn More
+```
 
-To learn more about Next.js, take a look at the following resources:
+Your app will run locally at 👉 http://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🚀 Deployment (Vercel)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Push your project to GitHub.
 
-## Deploy on Vercel
+2. Go to Vercel and import your repository.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Set the environment variables in Vercel:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+
+MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/Linkdock?retryWrites=true&w=majority&appName=LinkDock
+NEXT_PUBLIC_HOST=https://linkdock-all-your-links-one-smart-h.vercel.app
+
+```
+
+4. Deploy 🎉
+
+5. Visit your live app: https://linkdock-all-your-links-one-smart-h.vercel.app
+
+🤝 Contributing
+
+Contributions are always welcome!
+
+1. Fork the repo 🍴
+
+2. Create your feature branch 🌱
+
+3. Commit your changes 📝
+
+4. Push to the branch 🚀
+
+5. Open a Pull Request 🎉
+
+💖 Made With
+
++ Next.js + React
+
++ Tailwind CSS
+
++ MongoDB Atlas
+
++ Framer Motion
+
++ React Toastify
