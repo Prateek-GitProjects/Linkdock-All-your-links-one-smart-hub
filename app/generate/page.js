@@ -53,8 +53,11 @@ const Generate = () => {
   };
 
   return (
-    <suspense>
     <div className="bg-gradient-to-br from-blue-950 via-blue-900 to-indigo-900 grid grid-cols-2 font-sans max-h-screen overflow-hidden text-cyan-100">
+    {/* Load searchParams inside Suspense */}
+      <Suspense fallback={null}>
+        <HandleWrapper sethandle={sethandle} />
+      </Suspense>
       {/* Left Column */}
       <motion.div
         className="col1 flex justify-center items-center px-6 h-screen mt-16 ml-7"
@@ -168,9 +171,9 @@ const Generate = () => {
         <ToastContainer />
       </motion.div>
     </div>
-          </suspense>
   );
 };
 
 export default Generate;
+
 
