@@ -33,14 +33,16 @@ Create a professional landing page with all your important links — perfect for
 ## 📸 Screenshots / GIFs
 
 ### 🏠 Home / Linkdock Page
-![Home Page]("screenshots/home.gif")  
+![Home Page](/screenshots/home.gif)  
 
 ### 🚀 Generate Page (Add Links)
-![Generate Page](https://user-images.githubusercontent.com/48705673/233456791-123456ab.png)  
+![Generate Page](/screenshots/create.gif)  
 
-### 📱 Responsive Design
-![Responsive Design](https://user-images.githubusercontent.com/48705673/233456792-abcdef12.png)  
+### 🖋️ Creating Linkdock
+![Creating](/screenshots/creatingdock.gif)  
 
+### 🌐 Running Linkdock
+![Running](/screenshots/running.gif)
 
 ---
 
