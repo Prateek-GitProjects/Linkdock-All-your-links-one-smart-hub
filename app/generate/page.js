@@ -1,5 +1,4 @@
 "use client";
-export const dynamic = "force-dynamic"
 import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -55,10 +54,6 @@ const Generate = () => {
 
   return (
     <div className="bg-gradient-to-br from-blue-950 via-blue-900 to-indigo-900 grid grid-cols-2 font-sans max-h-screen overflow-hidden text-cyan-100">
-    {/* Load searchParams inside Suspense */}
-      <Suspense fallback={null}>
-        <HandleWrapper sethandle={sethandle} />
-      </Suspense>
       {/* Left Column */}
       <motion.div
         className="col1 flex justify-center items-center px-6 h-screen mt-16 ml-7"
